@@ -7,7 +7,8 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import java.time.LocalDate;
+import java.util.Date;
+
 @Getter
 @Setter
 @Entity
@@ -19,6 +20,6 @@ public class Hospede {
 
     private String nome;
     private String sobrenome;
-    private LocalDate dataCheckIn;
-    private LocalDate dataCheckOut;
+    private Date dataCheckIn;
+    private Date dataCheckOut;
 }
